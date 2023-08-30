@@ -8,3 +8,23 @@
 }
 
 /* font-family: "Noto Serif", Times New Roman, serif */
+
+.header {
+  background-color: #fff;
+  background-image: url(/images/background_header.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav__logo{
+  position: relative;
+}
+
+.header__span-accent{
+  display: block;
+}
+
+.header__image{
+  position: absolute;
+}

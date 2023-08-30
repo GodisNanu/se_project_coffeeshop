@@ -5,8 +5,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Joanna Hazel" />
-    <meta name="description" content="There is a new coffee shop in the Triple Peaks Library. Here you can find recipes, book a table, or find out more about the new coffee shop.">
-    <meta name="keywords" content="Coffee, Bean, Recipe, Table, Triple, Peaks, Library">
+    <meta
+      name="description"
+      content="There is a new coffee shop in the Triple Peaks Library. Here you can find recipes, book a table, or find out more about the new coffee shop."
+    />
+    <meta
+      name="keywords"
+      content="Coffee, Bean, Recipe, Table, Triple, Peaks, Library"
+    />
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
@@ -20,7 +26,58 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="/images/logo_coffeeshop_dark.svg"
+            alt="Coffeeshop_logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservation</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="about">About</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee </span> the Triple
+          Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          class="header__image"
+          src="/images/inside_coffee_shop.png"
+          alt="Coffeeshop Pic"
+        />
+        <div class="header__footer">
+          <div class="header__footer_column">
+            <h2 class="header__footer_column-heading">Hours:</h2>
+            <ul class="header__footer_list">
+              <li class="header__footer_list-item">
+                Monday-Friday (10:00-19:00)
+              </li>
+              <li class="header__footer_list-item">
+                Saturday-Sunday (11:00-18:00)
+              </li>
+            </ul>
+          </div>
+          <p class="header__footer_address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
