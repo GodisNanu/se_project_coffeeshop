@@ -7,8 +7,6 @@
   line-height: 20px;
 }
 
-/* font-family: "Noto Serif", Times New Roman, serif */
-
 .header {
   background-color: #fff;
   background-image: url(/images/background_header.svg);
@@ -105,24 +103,21 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  
 }
 
 .header__paragraph {
   align-self: flex-end;
   padding: 0;
-
 }
 
 .header__paragraph_list-item {
   list-style-type: none;
-  
 }
 
 .content {
 }
 
-.recipes{
+.recipes {
   background-color: #0a2750;
   background-image: url(/images/background_recipes.svg);
   background-position: center;
@@ -130,46 +125,43 @@
   padding: 100px 80px 215px;
   height: 50vh;
   color: #fff;
-
 }
 
-.recipes__title{
-max-width: 580px;
-font-family: "Inter", Arial, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-margin: 0;
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
 }
 
-.recipes__subtitle{
-max-width: 438px;
-font-family: "Noto Serif", 'Times New Roman', serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-margin: 0;
-padding-top: 24px;
+.recipes__subtitle {
+  max-width: 438px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 24px;
 }
 
-.recipes__videos{
-width: 480px;
-height: 273px;
-gap: 40px;
-display: flex;
-justify-content: center;
-margin: 0 auto 0;
-padding-top: 80px;
+.recipes__videos {
+  width: 480px;
+  height: 273px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0;
+  padding-top: 80px;
 }
 
-.recipes__iframe{
-
-
+.recipes__iframe {
 }
 
-.recipes__video-caption{
+.recipes__video-caption {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -177,8 +169,8 @@ padding-top: 80px;
   line-height: 30px;
   display: flex;
   justify-content: space-between;
-padding-top: 24px;
-margin: 0;
+  padding-top: 24px;
+  margin: 0;
 }
 
 .footer {
