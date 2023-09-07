@@ -66,11 +66,12 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
+   
    }
    
    .form__button:hover{
      opacity: 70%;
-     transition: 2s;
+     transition:2s;
    }
    
    .form__checkbox{
