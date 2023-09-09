@@ -8,8 +8,7 @@
 
 .about__title {
   max-width: 251px;
-  margin-top: 100px;
-  margin-left: 80px;
+ margin: 100px 0 0 80px;
   z-index: 3;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -41,7 +40,7 @@
 .about__circle {
   position: absolute;
   z-index: 1;
-  background-color: #275ed6;
+  background-color: #2f80ed;
   width: 426px;
   height: 426px;
   border-radius: 50%;

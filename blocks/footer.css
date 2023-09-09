@@ -13,6 +13,11 @@
   height: 39px;
 }
 
+.footer__social {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__social-heading {
   margin: 0 0 20px;
   text-align: right;
@@ -27,9 +32,15 @@
 .footer__list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
@@ -39,7 +50,6 @@
 }
 
 .footer__social-link {
-  margin: 0 0 16px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -47,11 +57,11 @@
   line-height: 20px;
   color: #fff;
   transition: color, 1.3s, linear, 2s;
-
+  text-decoration: none;
 }
 
-.footer__social-link:hover{
-    color: #c1c1c1;
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
