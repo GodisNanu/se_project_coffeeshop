@@ -8,7 +8,7 @@
   border: 0;
   margin-bottom: 120px;
   padding: 0;
-  max-width: 365px;
+  max-width: 385px;
 }
 
 .form__label {
@@ -20,21 +20,19 @@
   line-height: 20px;
 }
 
-.form__label:last-child{
+.form__label:last-child {
   margin: 0;
 }
 
 .form__input {
-  line-height: 60px;
+  height: 60px;
   border-radius: 4px;
   margin-bottom: 32px;
-  border-radius: 4px;
   font-family: "Inter", Arial, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-color: #838383;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
